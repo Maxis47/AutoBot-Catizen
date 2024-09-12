@@ -47,7 +47,7 @@ Follow the steps below to launch script:
 
 3. Find the file **"bundle-*.js"**. It is located in the **"tgCat/game/cat/js"** folder.
 
-4. Open the file **"bundle-*.js"** and locate the line with the condition **L([A("leaguechange")], M.prototype, "updateBg", null),**.
+4. Open the file **"bundle-*.js"** and locate the line with the condition **leaguechange,**.
 
 5. Set a Brake Point at this line. You can do this by clicking on the line number to the left of the code or by pressing the **F9** key on your keyboard.
 
@@ -74,12 +74,12 @@ try {
         Laya.timer.loop(5e3, this, this.checkSum),
         this.m_btn_AutoSetting.visible = !1),
         this.m_img_StopAuto.visible = !P.cat.isAuto
-        u(`AutoBot ${P.cat.isAuto ? 'deactivated' : 'activated'}!\n\nCracked by @clqkx`)
+        u(`AutoBot ${P.cat.isAuto ? 'deactivated' : 'activated'}!\n\nCracked by @Maxis`)
     }
     
-    M.prototype.onClickAuto = onClickAuto
+    N.prototype.onClickAuto = onClickAuto
     console.log(`${consolePrefix}Script loaded`, consoleGreen);
-    console.log(`${consolePrefix}Crack by @clqkx`, consoleGreen);
+    console.log(`${consolePrefix}Crack by @Maxis`, consoleGreen);
 
 } catch (e) {
     console.log(`${consolePrefix}An error occurred, the BrakePoint is set incorrectly!`, consoleRed);
@@ -92,7 +92,5 @@ try {
 
 ### That's it! Now you can use Auto mode for free in Catizen game on Telegram.
 
-## Author
+https://t.me/blumjphard
 
-Telegram: [@clqkx](https://t.me/clqkx)
-Telegram Channel: [@clqkxdev](https://t.me/clqkxdev)
